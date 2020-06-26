@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/d_itemImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/d_itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Item Name"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/d_itemImage"
+        app:layout_constraintTop_toBottomOf="@+id/d_itemImage" />
+
+
+    <TextView
+        android:id="@+id/d_itemPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Item Price"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/d_itemName"
+        app:layout_constraintTop_toBottomOf="@+id/d_itemName" />
+
+
+    <TextView
+        android:id="@+id/d_itemDescriptionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="About"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="@+id/d_itemName"
+        app:layout_constraintTop_toBottomOf="@+id/d_itemPrice" />
+
+    <TextView
+        android:id="@id/d_itemDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="2dp"
+        android:textStyle="italic"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="@id/d_itemDescriptionTitle"
+        app:layout_constraintTop_toBottomOf="@id/d_itemDescriptionTitle"
+        android:text="Description" />
+
+
+    <TextView
+        android:id="@+id/d_itemCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Category"
+        android:textStyle="italic"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:layout_marginStart="6sp"
+        app:layout_constraintBottom_toBottomOf="@id/d_itemCategoryTitle"
+        app:layout_constraintStart_toEndOf="@id/d_itemCategoryTitle"/>
+
+
+    <TextView
+        android:id="@+id/d_itemCategoryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Category:"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/d_itemDescription"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@+id/d_itemDescription" />
+
+    <TextView
+        android:id="@+id/sellerNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Sold By:"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/d_itemDescription"
+        app:layout_constraintTop_toBottomOf="@+id/d_itemCategory" />
+
+    <TextView
+        android:id="@+id/sellerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:text="Sellers name"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@id/sellerNameTitle"
+        app:layout_constraintBottom_toBottomOf="@id/sellerNameTitle"
+        android:layout_marginStart="6dp"
+        />
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="Contact the Seller"
+        android:textSize="18sp"
+        android:padding="22dp"
+        android:drawableStart="@drawable/call"
+        android:paddingHorizontal="30dp"
+        android:textColor="@color/white"
+        android:paddingVertical="18dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintTop_toBottomOf="@id/sellerNameTitle"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

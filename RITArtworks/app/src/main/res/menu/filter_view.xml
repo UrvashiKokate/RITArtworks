@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="all">
+        <item
+            android:title="Cards"
+            android:id="@+id/cards"/>
+        <item
+            android:title="Jewelery"
+            android:id="@+id/jewelery" />
+
+        <item
+            android:title="Painting"
+            android:id="@+id/painting"/>
+        <item
+            android:title="Sketches"
+            android:id="@+id/sketches"/>
+    </group>
+</menu>

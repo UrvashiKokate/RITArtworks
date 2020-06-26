@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "954672843252",
+    "firebase_url": "https://artworks-a4582.firebaseio.com",
+    "project_id": "artworks-a4582",
+    "storage_bucket": "artworks-a4582.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954672843252:android:b1139822f741e76d1511a1",
+        "android_client_info": {
+          "package_name": "com.urvashikokate.ritartworks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954672843252-g8i1q9hjrme5b8qjthi9704hp70rnp2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTtsX8P_jN_IrlEx41z0Hbp3Yu3kYPx28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954672843252-g8i1q9hjrme5b8qjthi9704hp70rnp2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
